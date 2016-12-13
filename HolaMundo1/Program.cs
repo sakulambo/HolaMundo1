@@ -11,7 +11,11 @@ namespace HolaMundo1
         //Aixo es un comentari
         static void Main(string[] args)
         {
-            Console.Write("Hola Mundo!"); 
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write("Hola Mundo!");
+            }
+            Console.ReadLine();
         }
     }
 }
